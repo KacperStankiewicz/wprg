@@ -1,0 +1,63 @@
+.flexbox-container{
+
+    padding: 5px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.flexbox-container div#calaRamka{
+
+    height: 80%;
+}
+/*////////////////////////////////////////////////////////////////////////////////////////////*/
+
+* {
+    margin: 0;
+    padding: 0;
+    /*box-sizing: border-box;*/
+}
+header{
+    text-align: center;
+    background-color: cadetblue;
+    padding: 30px;
+}
+
+#przycisk{
+    text-align: right;
+    font-size: small;
+}
+h1#glowny{
+    margin-bottom: 30px;
+}
+body{
+    padding: 50.4px;
+}
+/*main{*/
+/*    width: 90vw;*/
+/*    margin: 0 ;*/
+/*    padding: 30px 20px;*/
+/*}*/
+footer{
+    background-color: crimson;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+div#calaRamka{
+    margin: 10px;
+    width: 250px;
+    height: 300px;
+    border-style: solid;
+    border-color: black;
+}
+
+div#tekstPodZdjeciem{
+    padding: 4px;
+}
+
+
